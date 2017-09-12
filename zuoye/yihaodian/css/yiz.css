@@ -1,0 +1,94 @@
+.s{
+	font-size: 10px;
+	margin-left: 812px;
+}
+.login1 {
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 70px;
+	margin-top: 0px;
+}
+
+.tou {
+	margin-right: 68px;
+	margin-left: 602px;
+	margin-top: 47px;
+	font-size: 26px;
+}
+
+.name {
+	margin-right: 37px;
+	margin-left: 562px;
+	font-size: 36px;
+}
+
+.tel {
+	margin-right: 37px;
+	margin-left: 562px;
+	font-size: 36px;
+}
+
+.key {
+	margin-right: 33px;
+	margin-left: 562px;
+	font-size: 35px;
+	margin-top: -3px;
+}
+
+.tableText {
+	display: inline-block;
+	width: 88px;
+	height: 48px;
+	margin-left:-3px;
+	text-align: center;
+	background-color: #57565f;
+	font: bold 12px/52px "sisum";
+	color: #fff;
+	cursor: default;
+	border-radius: 1px;
+	font-size: 17px;
+	margin-top: -36px;
+}
+
+.pass {
+	margin-right: 37px;
+	margin-left: 562px;
+	font-size: 33px;
+}
+
+.respass {
+	margin-right: 37px;
+	margin-left: 562px;
+	font-size: 36px;
+}
+
+.dian {
+	font-size: 7px;
+	width: 263px;
+	margin-top: 23px;
+	margin-left: 559px;
+	margin-bottom: 10px;
+}
+
+.tong {
+	background-color: #ff3c3c;
+	font-size: 20px;
+	line-height: 46px;
+	display: block;
+	margin-left: 576px;
+	margin-top: -2px;
+	width: 183px;
+	height: 44px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+.tong a{
+	color: white;
+	text-decoration: none;
+}
+.fo{
+	text-align: center;
+	font-size: 10px;
+}

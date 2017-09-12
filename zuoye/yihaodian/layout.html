@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*public*/
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			
+			body {
+				font-size: 14px;
+				font-family: "微软雅黑";
+			}
+			
+			a {
+				text-decoration: none;
+				color: #959595;
+			}
+			/*header*/
+			
+			.container {
+				width: 1000px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			
+			.header_con {
+				height: 60px;
+				/*background-color: red;*/
+			}
+			
+			.header_con ul li {
+				float: left;
+				display: inline-block;
+				padding: 10px 15px;
+				margin-top: 10px;
+				color: #959595;
+			}
+			
+			.header_con .title {
+				border-left: 1px solid #ccc;
+				font-weight: bold;
+				font-size: 16px;
+			}
+			/*主体*/
+			
+			.body_con,
+			.body_con .container {
+				background-color: #E6E1DD;
+			}
+			
+			.body_con .body_left {
+				width: 600px;
+				height: 600px;
+				float: left;
+				/*background-color: aqua;*/
+			}
+			
+			.body_con .container {
+				background-image: url(https://mimg.127.net/m/lc/img/LoginBackgroundPic/1152/3/promPic.jpg);
+			}
+			
+			.body_con .body_right {
+				width: 400px;
+				height: 600px;
+				float: right;
+				/*background-color: aquamarine;*/
+			}
+			
+			.body_con .login_layout {
+				width: 300px;
+				height: 460px;
+				margin-top: 70px;
+				background-color: rgba(255, 255, 255, .78);
+				overflow: hidden;
+			}
+			
+			.body_con .login_layout .input {
+				width: 260px;
+				height: 38px;
+				line-height: 38px;
+				background-color: #fff;
+				border: 1px solid #E0E0E0;
+				border-radius: 5px;
+				margin: 0 auto;
+				margin-top: 30px;
+			}
+			
+			.body_con i {
+				width: 20px;
+				height: 20px;
+				display: inline-block;
+				vertical-align: middle;
+				/*border: 1px solid red;*/
+				background-image: url("https://mimg.127.net/index/163/img/2013/bg_v3.png");
+				background-repeat: no-repeat;
+				background-position: -150px -62px;
+			}
+			
+			.body_con input {
+				height: 30px;
+				width: 160px;
+				border: none;
+				outline: none;
+				padding-left: 5px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			
+			.body_con .input span {
+				color: #616161;
+			}
+			/*底部*/
+			
+			.footer_con {
+				height: 80px;
+				/*background-color: blue;*/
+			}
+			
+			.footer_con .lf {
+				float: left;
+			}
+			
+			.footer_con .rf {
+				float: left;
+			}
+			
+			.footer_con ul li {
+				float: left;
+				padding: 10px 20px;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="header_con">
+				<ul class="container">
+					<li><img src="https://mimg.127.net/logo/163logo.gif" /></li>
+					<li class="title">中文邮箱第一品牌</li>
+					<li>
+						<a href="">邮箱黄页</a>
+					</li>
+					<li>
+						<a href="">邮箱黄页</a>
+					</li>
+					<li>
+						<a href="">邮箱黄页</a>
+					</li>
+					<li>
+						<a href="">邮箱邮箱</a>
+					</li>
+					<li>
+						<a href="">邮箱黄页黄页黄页</a>
+					</li>
+
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div class="body_con">
+				<div class="container">
+					<div class="body_left">
+					</div>
+					<div class="body_right">
+						<div class="login_layout">
+							<div class="input"><i></i><input type="text" name="" placeholder="请输入账号" /><span>@163.com</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer_con">
+				<div class="container">
+					<div class="lf"><img src="https://mimg.127.net/logo/netease_logo.gif" /></div>
+					<ul class="rf">
+						<li>
+							<a href="">网易首页</a>
+						</li>
+						<li>
+							<a href="">网易首页</a>
+						</li>
+						<li>
+							<a href="">网易首页</a>
+						</li>
+						<li>
+							<a href="">网易首页</a>
+						</li>
+						<li>
+							<a href="">网易首页</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
